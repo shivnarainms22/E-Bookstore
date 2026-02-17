@@ -1,0 +1,67 @@
+# ===== Backend (Spring Boot) =====
+onlinebookstore/target/
+onlinebookstore/*.jar
+onlinebookstore/*.war
+onlinebookstore/.mvn/
+onlinebookstore/mvnw
+onlinebookstore/mvnw.cmd
+
+# ===== Frontend (React) =====
+react frontend/onlinebookstore/node_modules/
+react frontend/onlinebookstore/build/
+react frontend/onlinebookstore/.pnp/
+react frontend/onlinebookstore/.pnp.js
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# ===== Environment & Secrets =====
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Database =====
+backup.sql
+dump.sql
+*.dump
+!schema.sql
+
+# ===== Docker =====
+# Don't ignore docker files, but ignore local overrides
+docker-compose.override.yml
+
+# ===== Misc =====
+*.bak
+*.tmp
+*.temp
+coverage/
+.cache/
+*.zip
+*.sql
+!schema.sql
+
+# ===== IDE Workspaces & Installations =====
+Spring/
+VS Code/
+.claude/
