@@ -275,14 +275,3 @@ If you get port conflicts:
 - Use test cards from [Stripe Testing](https://stripe.com/docs/testing)
 - Test card: `4242 4242 4242 4242` (any future date, any CVC)
 
-## License
-
-This project is licensed under the MIT License.
-
-## Support
-
-For issues and questions, please open an issue on the [GitHub repository](https://github.com/shivnarainms22/E-Bookstore/issues).
-
----
-
-**Built with** ❤️ **using Spring Boot & React**
